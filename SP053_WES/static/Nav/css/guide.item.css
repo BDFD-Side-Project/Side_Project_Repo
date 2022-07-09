@@ -1578,7 +1578,7 @@ a.monaka-media-title {
 .monaka-header:before {
     background-color: #FFFFFF;
     background-color: var(--color-white, #FFFFFF);
-    background-image: url("https://cdn.jsdelivr.net/gh/bdfd/BDFD-Side-Project/Side_Project_Repo/SP053_WES/nav_background.jpg");
+    background-image: url("https://cdn.jsdelivr.net/gh/BDFD-Side-Project/Side_Project_Repo/SP053_WES/nav_background.jpg");
     background-repeat: repeat;
 }
 
