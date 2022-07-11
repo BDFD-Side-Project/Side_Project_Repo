@@ -50,7 +50,6 @@ body {
         transition: opacity .25s ease;
         cursor: default !important;
     }
-
     .monaka-menu-monitor:checked~.monaka-menu-overlay {
         opacity: 1;
         pointer-events: auto;
@@ -106,7 +105,6 @@ body {
 }
 
 @media (max-width: 1023px) {
-
     .monaka-col,
     .monaka-column {
         padding: 10px 20px;
@@ -114,12 +112,10 @@ body {
 }
 
 @media (min-width: 1024px) {
-
     .monaka-col:first-child,
     .monaka-column:first-child {
         padding-left: 40px;
     }
-
     .monaka-col:last-child,
     .monaka-column:last-child {
         padding-right: 40px;
@@ -258,82 +254,69 @@ body {
         -ms-flex-pack: start !important;
         justify-content: flex-start !important;
     }
-
     .lg\:monaka-align-right {
         -webkit-box-pack: end !important;
         -ms-flex-pack: end !important;
         justify-content: flex-end !important;
     }
-
     .lg\:monaka-align-center {
         -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
         justify-content: center !important;
     }
-
     .lg\:monaka-align-justify {
         -webkit-box-pack: justify !important;
         -ms-flex-pack: justify !important;
         justify-content: space-between !important;
     }
-
     .lg\:monaka-align-spaced {
         -ms-flex-pack: distribute !important;
         justify-content: space-around !important;
     }
-
     .lg\:monaka-align-top {
         -webkit-box-align: start !important;
         -ms-flex-align: start !important;
         align-items: flex-start !important;
     }
-
     .lg\:monaka-align-middle {
         -webkit-box-align: center !important;
         -ms-flex-align: center !important;
         align-items: center !important;
     }
-
     .lg\:monaka-align-bottom {
         -webkit-box-align: end !important;
         -ms-flex-align: end !important;
         align-items: flex-end !important;
     }
-
     .lg\:monaka-align-stretch {
         -webkit-box-align: stretch !important;
         -ms-flex-align: stretch !important;
         align-items: stretch !important;
     }
-
     .lg\:monaka-flex-row {
         -webkit-box-orient: horizontal !important;
         -webkit-box-direction: normal !important;
         -ms-flex-direction: row !important;
         flex-direction: row !important;
     }
-
     .lg\:monaka-flex-row-reverse {
         -webkit-box-orient: horizontal !important;
         -webkit-box-direction: reverse !important;
         -ms-flex-direction: row-reverse !important;
         flex-direction: row-reverse !important;
     }
-
     .lg\:monaka-flex-column {
         -webkit-box-orient: vertical !important;
         -webkit-box-direction: normal !important;
         -ms-flex-direction: column !important;
         flex-direction: column !important;
     }
-
     .lg\:monaka-flex-column-reverse {
         -webkit-box-orient: vertical !important;
         -webkit-box-direction: reverse !important;
         -ms-flex-direction: column-reverse !important;
         flex-direction: column-reverse !important;
     }
-
     .lg\:monaka-flex-auto {
         -webkit-box-flex: 1 !important;
         -ms-flex: 1 1 auto !important;
@@ -361,15 +344,12 @@ body {
     .lg\:monaka-static {
         position: static;
     }
-
     .lg\:monaka-relative {
         position: relative;
     }
-
     .lg\:monaka-absolute {
         position: absolute;
     }
-
     .lg\:monaka-fixed {
         position: fixed;
     }
@@ -495,11 +475,11 @@ body {
 .monaka-header-not-on-top .monaka-header {
     height: 60px;
     position: fixed;
-    top: -70px;
+    top: -60px;
     left: 0;
     width: 100%;
-    -webkit-transform: translateY(70px);
-    transform: translateY(70px);
+    -webkit-transform: translateY(60px);
+    transform: translateY(60px);
     -webkit-transition: -webkit-transform .25s ease;
     transition: -webkit-transform .25s ease;
     transition: transform .25s ease;
@@ -511,7 +491,7 @@ body {
 }
 
 .monaka-header-not-on-top .monaka-logo {
-    height: 70px;
+    height: 60px;
 }
 
 .monaka-header-not-on-top .monaka-logo.monaka-logo-top {
@@ -519,21 +499,20 @@ body {
 }
 
 .monaka-header-not-on-top .monaka-menu-search-field-inner {
-    height: 70px;
+    height: 60px;
 }
 
 @media (max-width: 1023px) {
     .monaka-header-not-on-top .monaka-menu-title {
-        height: 70px;
-        min-height: 70px;
+        height: 60px;
+        min-height: 60px;
     }
 }
 
 @media (min-width: 1024px) {
     .monaka-header-not-on-top .monaka-menu-item {
-        height: 70px;
+        height: 60px;
     }
-
     .monaka-header-not-on-top .monaka-header-center-3~.monaka-header-spacer {
         padding-top: 170px;
     }
@@ -570,11 +549,9 @@ body {
     .monaka-header.monaka-header-aligned-left .monaka-logo {
         margin-right: 0;
     }
-
     .monaka-header.monaka-header-aligned-left .monaka-menu {
         margin-left: 30px;
     }
-
     .monaka-header.monaka-header-aligned-left .monaka-menu-right-section {
         margin-left: auto;
     }
@@ -598,7 +575,6 @@ body {
         position: absolute;
         right: 20px;
     }
-
     .monaka-header.monaka-header-center-1 .monaka-menu-body-center {
         -webkit-box-align: center;
         -ms-flex-align: center;
@@ -607,29 +583,24 @@ body {
         -ms-flex-pack: center;
         justify-content: center;
     }
-
     .monaka-header.monaka-header-center-1 .monaka-menu-body-center,
     .monaka-header.monaka-header-center-1 .monaka-menu-body-center>li>ul {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
     }
-
     .monaka-header.monaka-header-center-1 .monaka-menu-body-center>li:nth-child(1) {
         margin-left: auto;
     }
-
     .monaka-header.monaka-header-center-1 .monaka-menu-body-center>li:nth-child(1)>ul {
         width: 412px;
         -webkit-box-pack: end;
         -ms-flex-pack: end;
         justify-content: flex-end;
     }
-
     .monaka-header.monaka-header-center-1 .monaka-menu-body-center>li:nth-child(3) {
         margin-right: auto;
     }
-
     .monaka-header.monaka-header-center-1 .monaka-menu-body-center>li:nth-child(3)>ul {
         width: 412px;
         -webkit-box-pack: start;
@@ -642,7 +613,6 @@ body {
     .monaka-header.monaka-header-center-2 .monaka-menu {
         width: 100%;
     }
-
     .monaka-header.monaka-header-center-2 .monaka-menu-body-center {
         -webkit-box-align: center;
         -ms-flex-align: center;
@@ -651,29 +621,24 @@ body {
         -ms-flex-pack: center;
         justify-content: center;
     }
-
     .monaka-header.monaka-header-center-2 .monaka-menu-body-center,
     .monaka-header.monaka-header-center-2 .monaka-menu-body-center>li>ul {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
     }
-
     .monaka-header.monaka-header-center-2 .monaka-menu-body-center>li:nth-child(1) {
         margin-right: auto;
     }
-
     .monaka-header.monaka-header-center-2 .monaka-menu-body-center>li:nth-child(1)>ul {
         width: 412px;
         -webkit-box-pack: start;
         -ms-flex-pack: start;
         justify-content: flex-start;
     }
-
     .monaka-header.monaka-header-center-2 .monaka-menu-body-center>li:nth-child(3) {
         margin-left: auto;
     }
-
     .monaka-header.monaka-header-center-2 .monaka-menu-body-center>li:nth-child(3)>ul {
         width: 412px;
         -webkit-box-pack: end;
@@ -699,16 +664,13 @@ body {
         background-color: currentColor;
         opacity: .1;
     }
-
     .monaka-header.monaka-header-center-3 .monaka-logo.monaka-logo-top {
         margin: 0 auto;
     }
-
     .monaka-header.monaka-header-center-3 .monaka-menu-search {
         position: absolute;
         right: 20px;
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-center-3 .monaka-menu-search-field-inner {
         height: 170px;
     }
@@ -747,13 +709,11 @@ body {
         transition: transform .25s ease;
         transition: transform .25s ease, -webkit-transform .25s ease;
     }
-
     .monaka-menu-monitor:checked~.monaka-menu {
         pointer-events: auto;
         -webkit-transform: translateX(0);
         transform: translateX(0);
     }
-
     .monaka-menu ul {
         -webkit-box-flex: 1;
         -ms-flex: 1;
@@ -785,7 +745,6 @@ body {
         height: 60px;
         min-height: 60px;
     }
-
     .monaka-menu-title,
     .monaka-menu-title>li {
         display: -webkit-box;
@@ -795,14 +754,12 @@ body {
         -ms-flex-align: center;
         align-items: center;
     }
-
     .monaka-menu-title>li {
         position: relative;
         -webkit-box-flex: 1;
         -ms-flex: 1;
         flex: 1;
     }
-
     .monaka-menu-title a {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -810,12 +767,10 @@ body {
         text-transform: uppercase;
         font-weight: bold;
     }
-
     .monaka-menu-title .monaka-logo {
         margin-left: auto;
         margin-right: auto;
     }
-
     .monaka-menu-title .monaka-menu-toggler {
         position: absolute;
         width: 40px;
@@ -838,26 +793,21 @@ body {
         padding: 12px 0 !important;
         overflow: hidden;
     }
-
     .monaka-menu-body::-webkit-scrollbar {
         -webkit-appearance: none;
         width: 8px;
     }
-
     .monaka-menu-body::-webkit-scrollbar-thumb {
         border-radius: 0;
         background-color: #c9c9c9;
     }
-
     .monaka-header-dark .monaka-menu-body::-webkit-scrollbar-thumb {
         background-color: #494949;
     }
-
     .monaka-menu-body:hover {
         overflow-y: auto;
         overflow-y: overlay;
     }
-
     .monaka-menu-body a {
         padding: 8.5px 40px 8.5px 20px;
         display: -webkit-box;
@@ -868,37 +818,30 @@ body {
         align-items: center;
         position: relative;
     }
-
     .monaka-menu-body a>i {
         -ms-flex-item-align: start;
         align-self: flex-start;
         margin-top: 3px;
     }
-
     .monaka-menu-body input[type=checkbox] {
         position: absolute;
         opacity: 0;
         visibility: hidden;
         pointer-events: none;
     }
-
     .monaka-menu-body input[type=checkbox]~ul {
         display: none;
     }
-
     .monaka-menu-body input[type=checkbox]:checked~ul {
         display: block;
     }
-
     .monaka-menu-body input[type=checkbox]:checked~a label {
         -webkit-transform: rotate(180deg);
         transform: rotate(180deg);
     }
-
     .monaka-menu-body .monaka-row {
         display: block;
     }
-
     .monaka-menu-body .monaka-menu-arrow {
         overflow: hidden;
         width: 40px;
@@ -909,7 +852,6 @@ body {
         right: 8px;
         top: 0;
     }
-
     .monaka-menu-body .monaka-menu-arrow:before {
         content: '';
         height: 8px;
@@ -928,12 +870,10 @@ body {
         transition: transform .25s ease;
         transition: transform .25s ease, -webkit-transform .25s ease;
     }
-
     .monaka-menu-body .monaka-menu-item {
         position: relative;
         width: 300px;
     }
-
     .monaka-menu-body .monaka-menu-item>a:before {
         content: "";
         position: absolute;
@@ -942,23 +882,18 @@ body {
         width: 100%;
         height: 100%;
     }
-
     .monaka-menu-body .monaka-menu-item .monaka-menu-item {
         width: 100%;
     }
-
     .monaka-menu-body .monaka-menu-item .monaka-menu-item a {
         padding-left: 40px;
     }
-
     .monaka-menu-body .monaka-menu-item .monaka-menu-item .monaka-menu-item a {
         padding-left: 60px;
     }
-
     .monaka-menu-body .monaka-menu-item .monaka-menu-item .monaka-menu-item .monaka-menu-item a {
         padding-left: 80px;
     }
-
     .monaka-menu-body .monaka-menu-item .monaka-menu-item .monaka-menu-item .monaka-menu-item .monaka-menu-item a {
         padding-left: 100px;
     }
@@ -983,26 +918,21 @@ body {
         text-transform: uppercase;
         font-family: "Roboto", Arial, sans-serif;
     }
-
     .monaka-menu-item>a>i {
         opacity: .75;
         margin-right: 10px;
     }
-
     .monaka-menu-item>ul {
         display: none;
     }
-
     .monaka-menu-item .monaka-menu-item>a {
         font-size: 14px;
         font-weight: normal;
         text-transform: none;
     }
-
     .monaka-menu-item.monaka-submenu-open>ul {
         display: block;
     }
-
     .monaka-menu-item.monaka-submenu-open>a .monaka-menu-arrow:before {
         bottom: 15px;
         -webkit-transform: rotate(135deg);
@@ -1018,7 +948,6 @@ body {
         -ms-flex-align: stretch;
         align-items: stretch;
     }
-
     .monaka-menu-item,
     .monaka-menu-item a {
         position: relative;
@@ -1026,7 +955,6 @@ body {
         display: -ms-flexbox;
         display: flex;
     }
-
     .monaka-menu-item a {
         padding: 0 20px;
         -webkit-box-align: center;
@@ -1035,18 +963,15 @@ body {
         text-decoration: none;
         color: currentColor;
     }
-
     .monaka-menu-item>a {
         font-size: 14px;
         font-weight: normal;
         text-transform: uppercase;
         font-family: "Roboto", Arial, sans-serif;
     }
-
     .monaka-menu-item>a>i {
         margin-right: 7px;
     }
-
     .monaka-menu-item .monaka-menu-item>a,
     .monaka-menu-item .monaka-menu-item>a:before,
     .monaka-menu-item .monaka-menu-item>a:after,
@@ -1054,26 +979,21 @@ body {
         -webkit-transition: none;
         transition: none;
     }
-
     .monaka-menu-item:hover {
         /* include &:focus-within if needed */
     }
-
     .monaka-menu-item:hover>ul {
         opacity: 1;
         pointer-events: auto;
         visibility: visible;
     }
-
     .monaka-menu-item .monaka-menu-item {
         color: currentColor;
         height: auto;
     }
-
     .monaka-menu-item .monaka-menu-item a {
         padding: 10px 40px 10px 20px;
     }
-
     .monaka-menu-item .monaka-menu-item>a {
         -webkit-box-flex: 1;
         -ms-flex: 1;
@@ -1083,18 +1003,15 @@ body {
         text-transform: none;
         font-family: Arial, sans-serif;
     }
-
     .monaka-menu-item .monaka-menu-item>a>span:not(.monaka-menu-arrow) {
         opacity: .55;
     }
-
     .monaka-menu-item .monaka-menu-item>a>i {
         -ms-flex-item-align: start;
         align-self: flex-start;
         margin-top: 3px;
         margin-right: 10px;
     }
-
     .monaka-menu-item>ul {
         border-top-width: 3px;
         border-top-style: solid;
@@ -1111,7 +1028,6 @@ body {
         transition: all .25s ease;
         will-change: opacity, transform;
     }
-
     .monaka-menu-item>ul ul {
         left: 100%;
         top: -18px;
@@ -1123,7 +1039,6 @@ body {
         left: auto;
         right: 0;
     }
-
     .monaka-submenu-right.monaka-menu-item>ul ul {
         left: -100%;
     }
@@ -1133,14 +1048,12 @@ body {
     .monaka-menu-item.monaka-item-mega-menu {
         position: static;
     }
-
     .monaka-menu-item.monaka-item-mega-menu .monaka-menu-item {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
     }
-
     .monaka-menu-item.monaka-item-mega-menu>ul {
         width: 100%;
     }
@@ -1221,6 +1134,7 @@ body {
     transition: opacity .25s ease;
 }
 
+
 /* .monaka-media-thumbnail img {
     max-width: 100%;
     -ms-flex-negative: 0;
@@ -1284,7 +1198,6 @@ a.monaka-media-title {
         margin-left: 5px;
         margin-right: 0;
     }
-
     .monaka-menu-arrow:before {
         content: '';
         display: block;
@@ -1299,7 +1212,6 @@ a.monaka-media-title {
         bottom: 6px;
         left: 4px;
     }
-
     .monaka-menu-item .monaka-menu-item .monaka-menu-arrow {
         margin-left: 0;
         margin-right: 0;
@@ -1358,15 +1270,12 @@ a.monaka-media-title {
         -webkit-transition: opacity .25s ease;
         transition: opacity .25s ease;
     }
-
     .monaka-menu.monaka-menu-underline .monaka-menu-item>ul {
         top: calc(100% - 3px);
     }
-
     .monaka-menu.monaka-menu-underline .monaka-menu-item.monaka-item-mega-menu>ul {
         top: 100%;
     }
-
     .monaka-menu.monaka-menu-underline .monaka-menu-item .monaka-menu-item>ul {
         top: -18px;
     }
@@ -1383,7 +1292,6 @@ a.monaka-media-title {
         height: 20px;
         margin: auto;
     }
-
     .monaka-menu.monaka-menu-line-separator .monaka-menu-item:first-child>a:before {
         opacity: 0;
     }
@@ -1400,7 +1308,6 @@ a.monaka-media-title {
         opacity: 0;
         z-index: -1;
     }
-
     .monaka-menu.monaka-menu-hover-gray .monaka-menu-item .monaka-menu-item>a:before {
         display: none;
     }
@@ -1417,7 +1324,6 @@ a.monaka-media-title {
         opacity: 0;
         z-index: -1;
     }
-
     .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-item>a:before {
         display: none;
     }
@@ -1447,7 +1353,6 @@ a.monaka-media-title {
 @media (min-width: 1024px) {}
 
 @media (min-width: 1024px) {
-
     .monaka-menu.monaka-submenu-hover-gray .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:before,
     .monaka-menu.monaka-submenu-hover-primary .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:before {
         content: "";
@@ -1491,6 +1396,7 @@ a.monaka-media-title {
     text-transform: uppercase;
     padding: 0;
 }
+
 
 /* .monaka-logo h1 a img+span {
     text-indent: -9999em;
@@ -1583,21 +1489,17 @@ a.monaka-media-title {
 }
 
 @media (max-width: 1023px) {
-
     .monaka-header .monaka-menu,
     .monaka-header .monaka-menu-arrow {
         color: #151918 !important;
         color: var(--color-black, #151918) !important;
     }
-
     .monaka-header .monaka-menu-title .monaka-logo-light {
         display: none !important;
     }
-
     .monaka-header .monaka-menu-title .monaka-logo-dark {
         display: block !important;
     }
-
     .monaka-header .monaka-menu-item .monaka-menu-item a>span:not(.monaka-menu-arrow),
     .monaka-header .monaka-menu-item .monaka-menu-item a>i {
         opacity: .55;
@@ -1648,26 +1550,21 @@ a.monaka-media-title {
         background-color: #151918;
         background-color: var(--color-black, #151918);
     }
-
     .monaka-header.monaka-header-dark .monaka-menu,
     .monaka-header.monaka-header-dark .monaka-menu-arrow {
         color: #FFFFFF !important;
         color: var(--color-white, #FFFFFF) !important;
     }
-
     .monaka-header.monaka-header-dark .monaka-menu-title {
         color: #FFFFFF;
         color: var(--color-white, #FFFFFF);
     }
-
     .monaka-header.monaka-header-dark .monaka-menu-title .monaka-logo-light {
         display: block !important;
     }
-
     .monaka-header.monaka-header-dark .monaka-menu-title .monaka-logo-dark {
         display: none !important;
     }
-
     .monaka-header.monaka-header-dark .monaka-menu-body .monaka-menu-item>a,
     .monaka-header.monaka-header-dark .monaka-menu-body .monaka-menu-item>a:hover {
         color: currentColor;
@@ -1679,7 +1576,6 @@ a.monaka-media-title {
         background-color: #151918;
         background-color: var(--color-black, #151918);
     }
-
     .monaka-header.monaka-header-dark .monaka-menu-arrow {
         color: #FFFFFF;
         color: var(--color-white, #FFFFFF);
@@ -1723,7 +1619,6 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-b
 }
 
 @media (min-width: 1024px) {
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-bg .monaka-menu.monaka-menu-line-separator .monaka-menu-active>a:before,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-bg .monaka-menu.monaka-menu-line-separator .monaka-menu-item:hover>a:before,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-bg .monaka-menu.monaka-menu-line-separator .monaka-menu-item:focus>a:before,
@@ -1733,14 +1628,12 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-b
         color: #151918;
         color: var(--color-black, #151918);
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-bg .monaka-menu.monaka-menu-hover-gray .monaka-menu-item .monaka-menu-active>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-bg .monaka-menu.monaka-menu-hover-gray .monaka-menu-item .monaka-menu-item:hover>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-bg .monaka-menu.monaka-menu-hover-gray .monaka-menu-item .monaka-menu-item:focus>a {
         color: rgb(0, 20, 150);
         color: var(--color-primary, rgb(0, 20, 150));
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-bg .monaka-menu.monaka-menu-hover-primary .monaka-menu-active>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-bg .monaka-menu.monaka-menu-hover-primary .monaka-menu-item:hover>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-bg .monaka-menu.monaka-menu-hover-primary .monaka-menu-item:focus>a,
@@ -1749,20 +1642,17 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-b
         color: #FFFFFF;
         color: var(--color-white, #FFFFFF);
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-bg .monaka-menu.monaka-menu-hover-primary:hover .monaka-menu-active>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-bg .monaka-menu.monaka-menu-hover-primary:hover .monaka-menu-active>a>.monaka-menu-arrow {
         color: #151918;
         color: var(--color-black, #151918);
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-bg .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-active>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-bg .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-item:hover>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-bg .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-item:focus>a {
         color: rgb(0, 20, 150);
         color: var(--color-primary, rgb(0, 20, 150));
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-light-bg .monaka-menu:hover .monaka-menu-active>a {
         color: #151918;
         color: var(--color-black, #151918);
@@ -1810,7 +1700,6 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-dark-bg
 }
 
 @media (min-width: 1024px) {
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-dark-bg .monaka-menu.monaka-menu-line-separator .monaka-menu-active>a:before,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-dark-bg .monaka-menu.monaka-menu-line-separator .monaka-menu-item:hover>a:before,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-dark-bg .monaka-menu.monaka-menu-line-separator .monaka-menu-item:focus>a:before,
@@ -1820,14 +1709,12 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-dark-bg
         color: #FFFFFF;
         color: var(--color-white, #FFFFFF);
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-dark-bg .monaka-menu.monaka-menu-hover-gray .monaka-menu-item .monaka-menu-active>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-dark-bg .monaka-menu.monaka-menu-hover-gray .monaka-menu-item .monaka-menu-item:hover>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-dark-bg .monaka-menu.monaka-menu-hover-gray .monaka-menu-item .monaka-menu-item:focus>a {
         color: rgb(0, 20, 150);
         color: var(--color-primary, rgb(0, 20, 150));
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-dark-bg .monaka-menu.monaka-menu-hover-primary .monaka-menu-active>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-dark-bg .monaka-menu.monaka-menu-hover-primary .monaka-menu-item:hover>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-dark-bg .monaka-menu.monaka-menu-hover-primary .monaka-menu-item:focus>a,
@@ -1835,14 +1722,12 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-dark-bg
         color: #FFFFFF;
         color: var(--color-white, #FFFFFF);
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-dark-bg .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-active>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-dark-bg .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-item:hover>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-dark-bg .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-item:focus>a {
         color: rgb(0, 20, 150);
         color: var(--color-primary, rgb(0, 20, 150));
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-overlay-dark-bg .monaka-menu:hover .monaka-menu-active>a {
         color: #FFFFFF;
         color: var(--color-white, #FFFFFF);
@@ -1892,7 +1777,6 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-lig
 }
 
 @media (min-width: 1024px) {
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-light .monaka-menu.monaka-menu-line-separator .monaka-menu-active>a:before,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-light .monaka-menu.monaka-menu-line-separator .monaka-menu-item:hover>a:before,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-light .monaka-menu.monaka-menu-line-separator .monaka-menu-item:focus>a:before,
@@ -1902,14 +1786,12 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-lig
         color: #FFFFFF;
         color: var(--color-white, #FFFFFF);
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-light .monaka-menu.monaka-menu-hover-gray .monaka-menu-item .monaka-menu-active>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-light .monaka-menu.monaka-menu-hover-gray .monaka-menu-item .monaka-menu-item:hover>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-light .monaka-menu.monaka-menu-hover-gray .monaka-menu-item .monaka-menu-item:focus>a {
         color: rgb(0, 20, 150);
         color: var(--color-primary, rgb(0, 20, 150));
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-light .monaka-menu.monaka-menu-hover-primary .monaka-menu-active>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-light .monaka-menu.monaka-menu-hover-primary .monaka-menu-item:hover>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-light .monaka-menu.monaka-menu-hover-primary .monaka-menu-item:focus>a,
@@ -1917,14 +1799,12 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-lig
         color: #FFFFFF;
         color: var(--color-white, #FFFFFF);
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-light .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-active>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-light .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-item:hover>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-light .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-item:focus>a {
         color: rgb(0, 20, 150);
         color: var(--color-primary, rgb(0, 20, 150));
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-light .monaka-menu:hover .monaka-menu-active>a {
         color: #FFFFFF;
         color: var(--color-white, #FFFFFF);
@@ -1970,7 +1850,6 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dar
 }
 
 @media (min-width: 1024px) {
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dark .monaka-menu.monaka-menu-line-separator .monaka-menu-active>a:before,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dark .monaka-menu.monaka-menu-line-separator .monaka-menu-item:hover>a:before,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dark .monaka-menu.monaka-menu-line-separator .monaka-menu-item:focus>a:before,
@@ -1980,14 +1859,12 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dar
         color: #151918;
         color: var(--color-black, #151918);
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dark .monaka-menu.monaka-menu-hover-gray .monaka-menu-item .monaka-menu-active>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dark .monaka-menu.monaka-menu-hover-gray .monaka-menu-item .monaka-menu-item:hover>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dark .monaka-menu.monaka-menu-hover-gray .monaka-menu-item .monaka-menu-item:focus>a {
         color: rgb(0, 20, 150);
         color: var(--color-primary, rgb(0, 20, 150));
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dark .monaka-menu.monaka-menu-hover-primary .monaka-menu-active>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dark .monaka-menu.monaka-menu-hover-primary .monaka-menu-item:hover>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dark .monaka-menu.monaka-menu-hover-primary .monaka-menu-item:focus>a,
@@ -1996,20 +1873,17 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dar
         color: #FFFFFF;
         color: var(--color-white, #FFFFFF);
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dark .monaka-menu.monaka-menu-hover-primary:hover .monaka-menu-active>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dark .monaka-menu.monaka-menu-hover-primary:hover .monaka-menu-active>a>.monaka-menu-arrow {
         color: #151918;
         color: var(--color-black, #151918);
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dark .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-active>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dark .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-item:hover>a,
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dark .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-item:focus>a {
         color: rgb(0, 20, 150);
         color: var(--color-primary, rgb(0, 20, 150));
     }
-
     body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dark .monaka-menu:hover .monaka-menu-active>a {
         color: #151918;
         color: var(--color-black, #151918);
@@ -2029,42 +1903,35 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dar
         background-color: var(--color-primary, rgb(0, 20, 150));
         opacity: 0;
     }
-
     .monaka-menu.monaka-menu-underline .monaka-menu-item.monaka-item-mega-menu>ul {
         border-top-color: transparent;
     }
-
     .monaka-menu.monaka-menu-underline .monaka-menu-item.monaka-menu-active>a,
     .monaka-menu.monaka-menu-underline .monaka-menu-item.monaka-menu-active:hover>a,
     .monaka-menu.monaka-menu-underline .monaka-menu-item:hover>a,
     .monaka-menu.monaka-menu-underline .monaka-menu-item:focus>a {
         color: currentColor;
     }
-
     .monaka-menu.monaka-menu-underline .monaka-menu-item.monaka-menu-active>a:after,
     .monaka-menu.monaka-menu-underline .monaka-menu-item.monaka-menu-active:hover>a:after,
     .monaka-menu.monaka-menu-underline .monaka-menu-item:hover>a:after,
     .monaka-menu.monaka-menu-underline .monaka-menu-item:focus>a:after {
         opacity: 1;
     }
-
     .monaka-menu.monaka-menu-underline:hover .monaka-menu-active>a:after {
         opacity: 0;
     }
-
     .monaka-menu.monaka-menu-underline .monaka-menu-item .monaka-menu-item.monaka-menu-active>a,
     .monaka-menu.monaka-menu-underline .monaka-menu-item .monaka-menu-item:hover>a,
     .monaka-menu.monaka-menu-underline .monaka-menu-item .monaka-menu-item:focus>a {
         color: rgb(0, 20, 150);
         color: var(--color-primary, rgb(0, 20, 150));
     }
-
     .monaka-menu.monaka-menu-underline .monaka-menu-item .monaka-menu-item.monaka-menu-active>a:after,
     .monaka-menu.monaka-menu-underline .monaka-menu-item .monaka-menu-item:hover>a:after,
     .monaka-menu.monaka-menu-underline .monaka-menu-item .monaka-menu-item:focus>a:after {
         opacity: 0 !important;
     }
-
     .monaka-menu.monaka-menu-underline .monaka-menu-item .monaka-menu-item>ul {
         border-top-color: rgb(0, 20, 150);
         border-top-color: var(--color-primary, rgb(0, 20, 150));
@@ -2076,18 +1943,15 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dar
         opacity: .1;
         background-color: currentColor;
     }
-
     .monaka-menu.monaka-menu-line-separator .monaka-menu-item.monaka-menu-active>a:before,
     .monaka-menu.monaka-menu-line-separator .monaka-menu-item:hover>a:before,
     .monaka-menu.monaka-menu-line-separator .monaka-menu-item:focus>a:before {
         color: #151918;
         color: var(--color-black, #151918);
     }
-
     .monaka-menu.monaka-menu-line-separator .monaka-menu-item .monaka-menu-item>a:before {
         opacity: 0 !important;
     }
-
     .monaka-header-dark .monaka-menu.monaka-menu-line-separator .monaka-menu-item.monaka-menu-active>a:before,
     .monaka-header-dark .monaka-menu.monaka-menu-line-separator .monaka-menu-item:hover>a:before,
     .monaka-header-dark .monaka-menu.monaka-menu-line-separator .monaka-menu-item:focus>a:before,
@@ -2100,56 +1964,47 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dar
 }
 
 @media (min-width: 1024px) {
-
     .monaka-menu.monaka-menu-hover-gray .monaka-menu-item.monaka-menu-active>a,
     .monaka-menu.monaka-menu-hover-gray .monaka-menu-item:hover>a,
     .monaka-menu.monaka-menu-hover-gray .monaka-menu-item:focus>a {
         color: #151918;
         color: var(--color-black, #151918);
     }
-
     .monaka-header-dark .monaka-menu.monaka-menu-hover-gray .monaka-menu-item.monaka-menu-active>a,
     .monaka-header-dark .monaka-menu.monaka-menu-hover-gray .monaka-menu-item:hover>a,
     .monaka-header-dark .monaka-menu.monaka-menu-hover-gray .monaka-menu-item:focus>a {
         color: #FFFFFF;
         color: var(--color-white, #FFFFFF);
     }
-
     .monaka-menu.monaka-menu-hover-gray .monaka-menu-item .monaka-menu-item.monaka-menu-active>a,
     .monaka-menu.monaka-menu-hover-gray .monaka-menu-item .monaka-menu-item:hover>a,
     .monaka-menu.monaka-menu-hover-gray .monaka-menu-item .monaka-menu-item:focus>a {
         color: rgb(0, 20, 150);
         color: var(--color-primary, rgb(0, 20, 150));
     }
-
     .monaka-menu.monaka-menu-hover-gray .monaka-menu-item.monaka-menu-active>a:before,
     .monaka-menu.monaka-menu-hover-gray .monaka-menu-item:hover>a:before,
     .monaka-menu.monaka-menu-hover-gray .monaka-menu-item:focus>a:before {
         opacity: .07;
         background-color: currentColor;
     }
-
     .monaka-menu.monaka-menu-hover-gray:hover .monaka-menu-active>a:before {
         opacity: 0;
     }
-
     .monaka-menu.monaka-menu-hover-gray:hover .monaka-menu-active:hover>a {
         color: #151918;
         color: var(--color-black, #151918);
     }
-
     .monaka-header-dark .monaka-menu.monaka-menu-hover-gray:hover .monaka-menu-active:hover>a {
         color: #FFFFFF;
         color: var(--color-white, #FFFFFF);
     }
-
     .monaka-menu.monaka-menu-hover-gray:hover .monaka-menu-active:hover>a:before {
         opacity: .07;
     }
 }
 
 @media (min-width: 1024px) {
-
     .monaka-menu.monaka-menu-hover-primary .monaka-menu-item.monaka-menu-active>a,
     .monaka-menu.monaka-menu-hover-primary .monaka-menu-item:hover>a,
     .monaka-menu.monaka-menu-hover-primary .monaka-menu-item:focus>a,
@@ -2162,24 +2017,20 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dar
         color: #FFFFFF;
         color: var(--color-white, #FFFFFF);
     }
-
     .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-item>a>.monaka-menu-arrow {
         color: #151918;
         color: var(--color-black, #151918);
     }
-
     .monaka-header-dark .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-item>a>.monaka-menu-arrow {
         color: #FFFFFF;
         color: var(--color-white, #FFFFFF);
     }
-
     .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-item.monaka-menu-active>a,
     .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-item:hover>a,
     .monaka-menu.monaka-menu-hover-primary .monaka-menu-item .monaka-menu-item:focus>a {
         color: rgb(0, 20, 150);
         color: var(--color-primary, rgb(0, 20, 150));
     }
-
     .monaka-menu.monaka-menu-hover-primary .monaka-menu-item.monaka-menu-active>a:before,
     .monaka-menu.monaka-menu-hover-primary .monaka-menu-item:hover>a:before,
     .monaka-menu.monaka-menu-hover-primary .monaka-menu-item:focus>a:before {
@@ -2187,24 +2038,20 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dar
         background-color: rgb(0, 20, 150);
         background-color: var(--color-primary, rgb(0, 20, 150));
     }
-
     .monaka-menu.monaka-menu-hover-primary:hover .monaka-menu-active>a,
     .monaka-menu.monaka-menu-hover-primary:hover .monaka-menu-active>a>.monaka-menu-arrow {
         color: #151918;
         color: var(--color-black, #151918);
     }
-
     .monaka-menu.monaka-menu-hover-primary:hover .monaka-menu-active>a:before {
         opacity: 0;
     }
-
     .monaka-header-dark .monaka-menu.monaka-menu-hover-primary:hover .monaka-menu-active>a>.monaka-menu-arrow,
     .monaka-menu.monaka-menu-hover-primary:hover .monaka-menu-active:hover>a,
     .monaka-menu.monaka-menu-hover-primary:hover .monaka-menu-active:hover>a>.monaka-menu-arrow {
         color: #FFFFFF;
         color: var(--color-white, #FFFFFF);
     }
-
     .monaka-menu.monaka-menu-hover-primary:hover .monaka-menu-active:hover>a:before {
         opacity: 1;
     }
@@ -2214,37 +2061,31 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dar
     .monaka-menu.monaka-submenu-line-separator .monaka-menu-item .monaka-menu-item>a {
         padding: 12px 20px;
     }
-
     .monaka-menu.monaka-submenu-line-separator .monaka-menu-item .monaka-menu-item:after {
         opacity: .07;
         background-color: currentColor;
     }
-
     .monaka-menu.monaka-submenu-line-separator .monaka-menu-item .monaka-menu-item:first-child:after {
         opacity: 0;
     }
 }
 
 @media (min-width: 1024px) {
-
     .monaka-menu.monaka-submenu-hover-gray .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:hover>a,
     .monaka-menu.monaka-submenu-hover-gray .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:focus>a {
         opacity: .55;
         color: #151918 !important;
         color: var(--color-black, #151918) !important;
     }
-
     .monaka-header-dark .monaka-menu.monaka-submenu-hover-gray .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:hover>a,
     .monaka-header-dark .monaka-menu.monaka-submenu-hover-gray .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:focus>a {
         color: #FFFFFF !important;
         color: var(--color-white, #FFFFFF) !important;
     }
-
     .monaka-menu.monaka-submenu-hover-gray .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:hover>a>.monaka-menu-arrow,
     .monaka-menu.monaka-submenu-hover-gray .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:focus>a>.monaka-menu-arrow {
         opacity: .7;
     }
-
     .monaka-menu.monaka-submenu-hover-gray .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:hover:before,
     .monaka-menu.monaka-submenu-hover-gray .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:focus:before {
         opacity: .06;
@@ -2253,25 +2094,21 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dar
 }
 
 @media (min-width: 1024px) {
-
     .monaka-menu.monaka-submenu-hover-primary .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:hover>a,
     .monaka-menu.monaka-submenu-hover-primary .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:focus>a {
         opacity: .55;
         color: #151918 !important;
         color: var(--color-black, #151918) !important;
     }
-
     .monaka-header-dark .monaka-menu.monaka-submenu-hover-primary .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:hover>a,
     .monaka-header-dark .monaka-menu.monaka-submenu-hover-primary .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:focus>a {
         color: #FFFFFF !important;
         color: var(--color-white, #FFFFFF) !important;
     }
-
     .monaka-menu.monaka-submenu-hover-primary .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:hover>a>.monaka-menu-arrow,
     .monaka-menu.monaka-submenu-hover-primary .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:focus>a>.monaka-menu-arrow {
         opacity: .7;
     }
-
     .monaka-menu.monaka-submenu-hover-primary .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:hover:before,
     .monaka-menu.monaka-submenu-hover-primary .monaka-menu-item:not(.monaka-item-mega-menu) .monaka-menu-item:focus:before {
         opacity: .1;
@@ -2287,11 +2124,9 @@ body:not(.monaka-header-not-on-top) .monaka-header.monaka-header-transparent-dar
         border-top-color: rgb(0, 20, 150);
         border-top-color: var(--color-primary, rgb(0, 20, 150));
     }
-
     .monaka-menu-item>a>i {
         opacity: .5;
     }
-
     .monaka-menu-item .monaka-menu-item>a>.monaka-menu-arrow {
         opacity: .4;
     }
@@ -2330,20 +2165,17 @@ a.monaka-media-title:hover {
 }
 
 @media (min-width: 1024px) {
-
     .monaka-menu-active>a,
     .monaka-menu-item:hover>a,
     .monaka-menu-item:focus>a {
         color: rgb(0, 20, 150);
         color: var(--color-primary, rgb(0, 20, 150));
     }
-
     .monaka-menu-active>a>i,
     .monaka-menu-item:hover>a>i,
     .monaka-menu-item:focus>a>i {
         opacity: 1;
     }
-
     .monaka-menu-item .monaka-menu-active>a,
     .monaka-menu-item .monaka-menu-item:hover>a,
     .monaka-menu-item .monaka-menu-item:focus>a {
@@ -2357,20 +2189,16 @@ a.monaka-media-title:hover {
         color: #151918;
         color: var(--color-black, #151918);
     }
-
     .monaka-menu:hover .monaka-menu-active>a>i {
         opacity: .5;
     }
-
     .monaka-menu:hover .monaka-menu-active:hover>a>i {
         opacity: 1;
     }
-
     .monaka-menu:not(.monaka-menu-hover-gray):not(.monaka-menu-hover-primary):not(.monaka-menu-underline):hover .monaka-menu-active:hover>a {
         color: rgb(0, 20, 150);
         color: var(--color-primary, rgb(0, 20, 150));
     }
-
     .monaka-header-dark .monaka-menu:hover .monaka-menu-active>a {
         color: #FFFFFF;
         color: var(--color-white, #FFFFFF);
@@ -2406,7 +2234,6 @@ a.monaka-media-title:hover {
     .monaka-menu-title {
         position: relative;
     }
-
     .monaka-menu-title:before {
         content: "";
         height: 1px;
@@ -2420,27 +2247,22 @@ a.monaka-media-title:hover {
 }
 
 @media (max-width: 1023px) {
-
     .monaka-menu-title a,
     .monaka-menu-body .monaka-menu-item>a {
         color: #151918;
         color: var(--color-black, #151918);
     }
-
     .monaka-menu-body .monaka-menu-item>a:before {
         background-color: currentColor;
         opacity: 0;
     }
-
     .monaka-menu-body .monaka-menu-item>a:hover {
         color: #151918;
         color: var(--color-black, #151918);
     }
-
     .monaka-menu-body:hover .monaka-menu-active>a:before {
         opacity: 0;
     }
-
     .monaka-menu-body .monaka-menu-item>a:hover:before,
     .monaka-menu-body .monaka-menu-active>a:before,
     .monaka-menu-body:hover .monaka-menu-active:hover>a:before {
@@ -2493,13 +2315,11 @@ a.monaka-media-title:hover {
         transition: all .25s ease-out;
         will-change: opacity, transform;
     }
-
     .monaka-menu.monaka-submenu-fade-up .monaka-menu-item:hover>ul>li {
         opacity: 1;
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
-
     .monaka-menu.monaka-submenu-fade-down .monaka-menu-item>ul>li {
         opacity: 0;
         -webkit-transform: translateY(-18px);
@@ -2508,48 +2328,40 @@ a.monaka-media-title:hover {
         transition: all .25s ease-out;
         will-change: opacity, transform;
     }
-
     .monaka-menu.monaka-submenu-fade-down .monaka-menu-item:hover>ul>li {
         opacity: 1;
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
-
     .monaka-menu.monaka-submenu-scale .monaka-menu-item>ul {
         -webkit-transform: scale(0.5);
         transform: scale(0.5);
         -webkit-transform-origin: top left;
         transform-origin: top left;
     }
-
     .monaka-menu.monaka-submenu-scale .monaka-menu-item.monaka-item-mega-menu>ul {
         -webkit-transform-origin: top center;
         transform-origin: top center;
     }
-
     .monaka-menu.monaka-submenu-scale .monaka-menu-item:hover>ul {
         -webkit-transform: scale(1);
         transform: scale(1);
     }
-
     .monaka-menu.monaka-submenu-scale .monaka-menu-item.monaka-submenu-right>ul,
     .monaka-menu.monaka-submenu-scale .monaka-menu-item.monaka-submenu-right>ul ul {
         -webkit-transform-origin: top right;
         transform-origin: top right;
     }
-
     .monaka-menu.monaka-submenu-swing .monaka-menu-item>ul {
         -webkit-transform: rotateX(-25deg);
         transform: rotateX(-25deg);
         -webkit-transform-origin: 0 0;
         transform-origin: 0 0;
     }
-
     .monaka-menu.monaka-submenu-swing .monaka-menu-item:hover>ul {
         -webkit-transform: rotateX(0deg) rotateY(0deg) !important;
         transform: rotateX(0deg) rotateY(0deg) !important;
     }
-
     .monaka-menu.monaka-submenu-swing .monaka-menu-item>ul ul {
         left: calc(100% - 1px);
         -webkit-transform: rotateY(25deg);
@@ -2557,7 +2369,6 @@ a.monaka-media-title:hover {
         -webkit-transform-origin: 0 0;
         transform-origin: 0 0;
     }
-
     .monaka-menu.monaka-submenu-swing .monaka-menu-item.monaka-submenu-right>ul ul {
         left: calc(-100% + 1px);
         -webkit-transform: rotateY(-25deg);
@@ -2565,22 +2376,18 @@ a.monaka-media-title:hover {
         -webkit-transform-origin: 100% 0;
         transform-origin: 100% 0;
     }
-
     .monaka-menu.monaka-submenu-slide-up .monaka-menu-item>ul {
         -webkit-transform: translateY(10px);
         transform: translateY(10px);
     }
-
     .monaka-menu.monaka-submenu-slide-up .monaka-menu-item:hover>ul {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
-
     .monaka-menu.monaka-submenu-slide-down .monaka-menu-item>ul {
         -webkit-transform: translateY(-10px);
         transform: translateY(-10px);
     }
-
     .monaka-menu.monaka-submenu-slide-down .monaka-menu-item:hover>ul {
         -webkit-transform: translateY(0);
         transform: translateY(0);
